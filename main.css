@@ -98,3 +98,49 @@
   text-decoration: none;
   padding: .5em;
 }
+
+.user-comment>div{
+  display: inline-block;
+  padding: 2px;
+}
+
+.comment-pic{
+  vertical-align: top;
+}
+
+.comment-ts{
+  color: #BBC0C9;
+  font-size: 12px;
+}
+
+.tab-list>li{
+  display: inline-block;
+  margin: .5em .5em;
+  border: 1px solid #A9ACDF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 0;
+  z-index: 1002;
+}
+
+.tab-list>li>a{
+  text-decoration: none;
+}
+
+.tab-list>li>a div{
+  padding: .5em;
+  font-weight: bold;
+  color: #00F;
+}
+
+#current-tab{
+  border-bottom-color: #FFF;
+}
+
+.tab-content {
+  border: 1px solid #A9ACDF;
+  border-radius: 4px;
+  padding: .5em;
+  margin-top: -1px;
+  z-index: 1001;
+}
