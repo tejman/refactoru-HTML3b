@@ -1,0 +1,100 @@
+/* ADD YOUR STYLES HERE */
+* {
+  padding: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.h-spaced >*{
+  display: inline-block;
+  padding: 0 2%;
+  vertical-align: top;
+}
+
+.h-spaced {
+  text-align: center;
+  width: 100%;
+}
+
+.h-spaced ol{
+  text-align: left;
+  margin-left: 2%;
+}
+
+.v-spaced {
+  padding: 12% 0;
+}
+
+.h-list>li{
+  display: inline-block;
+}
+
+.button {
+  background-color: #ED828A;
+  text-decoration: none;
+  color: #FFF;
+  padding: .7em 2.2em;
+  display: inline-block; 
+  border-radius: 5px;
+  border: none;
+  
+}
+
+.button-large {
+  font-size: 1.5em;
+}
+
+.button-small {
+  font-size: .8em;
+  padding: .5em .6em;
+}
+
+.nav-menu {
+  padding: 0;
+}
+
+.nav-items li{
+  display: inline-block;
+}
+
+.nav-items a{
+  text-decoration: none;
+  color: #FFF;
+  padding: .5em 2.4em; 
+  line-height: 2;
+}
+
+.nav-items li:hover{
+  background-color: #8C9899;
+  border-radius: 5px;
+}
+
+.pages {
+  padding: 3em;
+}
+.pages a{
+  text-decoration: none;
+  padding: .5em;
+  color: #ED828A;
+  border-bottom: 4px solid #ED828A;
+}
+
+.pages li{
+  display: inline-block;
+  padding: .5em;
+}
+
+.pages .adjacent-page a{
+  border: none;
+}
+
+.pages span{
+  color: #CCCCCC;
+  border-bottom: 4px solid #CCCCCC;
+  text-decoration: none;
+  padding: .5em;
+}
